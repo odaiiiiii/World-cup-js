@@ -1,0 +1,175 @@
+
+
+
+.StatisticGroup{
+    width: 35%;
+    height: 280px;
+    margin-top: 2rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.cardsStandings{
+    justify-content: center;
+    flex-direction: row !important;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.navGroup1{
+    height: 15%;
+    width: 100%;
+    background-color: #800020;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.titleTeam{
+    width: 40%;
+}
+
+.wld{
+
+width: 20%;
+text-align: center;
+}
+
+.contantGroup2{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.contantGroup2Numbers{
+    width: 20%;
+    font-size: 18px;
+}
+
+
+.navGroup2{
+    height: 10%;
+    background-color: #6c031d;
+
+    width: 100%;
+    display: flex;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    align-items: center;
+  
+    color: white;
+}
+
+
+
+.navGroup3{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+.nav3Content{
+    width: 100%;
+    height: 20%;
+flex-direction: row !important;
+padding-left: .7rem;
+padding-right: .9rem;
+width: 100%;
+align-items: center;
+text-align: center;
+color: #800020;
+
+padding-top: 4%;
+
+}
+
+
+.imgnavGroup3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #cab3b9;
+    object-fit: cover;
+   
+}
+
+
+.nameTeamG2{
+    font-size: 13px !important;
+    font-weight: bold !important;
+    justify-content: left !important;
+    
+}
+
+
+
+@media(max-width:400px){
+    .StatisticGroup{
+        width: 60%;
+        height: 280px;
+        margin-top: 2rem;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .StatisticGroup{
+        width: 70%;
+        height: 250px;
+      
+    }
+
+    .navGroup1{
+        height: 15%;
+       
+        font-size: 16px;
+    }
+    .navGroup2{
+        height: 10%;
+    
+      
+        padding-left: .7rem !important;
+        padding-right: .7rem !important;
+      
+    }
+    .navGroup3{
+        height: 75%;
+       
+        padding-bottom: 1rem;
+        padding-left: .7rem !important;
+        padding-right: .7rem !important;
+    }
+
+    .imgnavGroup3{
+        width: 25px;
+        height: 25px;
+     
+       
+    }
+
+    .contantGroup2{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        gap: .3rem;
+    }
+
+    .contantGroup2Numbers{
+        font-size: 14px !important;
+        font-family: 'Salsa', cursive !important ;
+
+    }
+
+    .cardsStandings{
+      margin-bottom: 3rem !important;
+    }
+}
+

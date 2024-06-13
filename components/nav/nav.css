@@ -1,0 +1,226 @@
+
+
+.nav{
+    width: 100%;
+    background: #800020;
+    justify-content: center;
+   
+}
+
+.continerNav{
+display: flex !important;
+justify-content: space-between;
+}
+
+.box1Img{
+    display: flex;
+    align-items: center;
+    
+}
+
+.FIFA{
+    color: white;
+    font-family: 'Salsa', cursive !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    height: 60px;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-top: .1rem;
+
+}
+
+.box2-list{
+    display: flex;
+}
+.btn-nav-box2{
+color: white !important;
+font-size: 17px !important;
+font-weight:bold;
+font-family: 'Rubik', sans-serif !important;
+border-right: none !important; 
+text-decoration: none;
+height: 100%;
+text-align: center;
+display: flex;
+padding-left: 1rem;
+padding-right: 1rem;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+
+.btn-nav-box2:hover{
+
+    background-color: rgb(244, 213, 157);
+    color: #800020 !important;
+    transition: .6s !important;
+    font-size: 20px !important;
+    text-decoration: underline;
+    }
+
+.ButtonGroup{
+    align-items: center;
+    gap: 1.2rem;    
+}
+
+
+
+
+.box3{
+    display: flex;
+    align-items: center;
+   
+}
+
+.nav-box3{
+    color: white !important;
+    font-family: 'Rubik', sans-serif !important;
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+    
+
+
+}
+    
+.shareIcon{
+    font-size: 18px !important;
+    
+}
+
+
+
+    .MuiListItemText-secondary {
+        color: white !important;
+        cursor: pointer;
+        font-size: 16px !important;
+        font-weight: bold !important;
+        font-family: 'Salsa', cursive !important;
+
+
+        
+      }
+
+
+      .MuiPaper-root{
+        position: absolute !important;
+       top: 63px !important;
+
+       
+       
+      }
+
+
+
+      /*  Responsive */
+
+      @media(max-width:400px){
+        *{
+            padding: 0px !important;
+            margin: 0px !important;
+            box-sizing: border-box;
+        }
+
+        
+.nav{
+   padding-top: .2rem !important;
+   padding-bottom: .2rem !important;
+   
+}
+
+        .logo{
+            height: 25px;
+            display: flex;
+          
+            padding-top: .2rem;
+        
+        }
+
+        
+        .FIFA{
+       
+            font-size: 8px !important;
+            flex-direction: column;
+        }
+        
+        .btn-nav-box2{
+          
+            font-size: 7px !important;
+           
+            height: 100%;
+            text-align: center;
+            display: flex;
+            padding-left: .1rem;
+            padding-right: .1rem;
+            flex-direction: column;
+            
+            
+            }
+            
+.btn-nav-box2:hover{
+
+    background-color: none !important;
+    color: #800020 !important;
+    transition: .6s !important;
+    font-size: 8px !important;
+    text-decoration: underline;
+    }
+
+
+            .ButtonGroup{
+                align-items: center;
+                gap: .9rem;
+                padding-right: .5rem !important;
+            }
+     
+
+          
+                
+            .shareIcon{
+                font-size: 10px !important;
+                
+            }
+
+
+
+            .MuiListItemText-secondary {
+                font-size: 10px !important;
+        
+        
+                
+              }
+        
+        
+              .MuiPaper-root{
+                position: absolute !important;
+               top: 63px !important;
+        
+               
+               
+              }
+
+
+              
+.box3{
+    display: none;
+   
+}
+
+
+
+
+
+.continerNav{
+    display: flex !important;
+    
+    }
+
+      }

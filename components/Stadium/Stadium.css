@@ -1,0 +1,100 @@
+
+
+.stadiumSection{
+    align-items: center;
+}
+
+.stadName{
+    font-size: 35px !important;
+    padding-top: 2rem ;
+    padding-bottom: 1.3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #800020 !important;
+
+}
+
+.descStad{
+    width: 45%;
+    min-height: 300px;
+    background-color: #800020;
+    border-radius: 10px;
+    margin-top: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.iconStad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+}
+
+.dataStad{
+    font-family: 'Acme', sans-serif !important;
+    
+}
+
+.titleStad{
+    font-size: 14px !important;
+    color: white;
+    font-family: 'Lemon', serif    ;
+    font-family: 'Salsa', cursive !important;
+
+}
+
+.mySwiper2{
+    width: 65% !important;
+}
+
+
+@media(max-width:400px){
+    .stadName{
+        font-size: 22px !important;
+        padding-bottom: .9rem !important;
+
+    
+    }
+
+    .swiper-cube .swiper-cube-shadow{
+        display: none !important;
+    }
+
+    .descStad{
+        width: 70%;
+        min-height: 220px;
+    
+        margin-top: 1rem !important;
+        margin-bottom: 4rem !important;
+        padding: 2rem;
+  
+        gap: .8rem !important;
+    }
+
+
+    
+
+.titleStad{
+    font-size: 10px !important;
+    padding: 10px 10px 0px 10px !important;
+
+}
+
+.iconStad{
+   
+    font-size: 13px;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+
+.dataStad{
+    font-size: 13px !important;
+}
+.mySwiper2{
+    width: 75% !important;
+}
+}

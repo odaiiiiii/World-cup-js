@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lemon&family=Rubik:ital,wght@0,300;0,500;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&family=Salsa&display=swap');
+
+
+/*
+  font-family: 'Acme', sans-serif;
+  font-family: 'Lemon', serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'Salsa', cursive;
+
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  font-family: 'Lato', sans-serif;
+  background-color: white;
+}
+
+
+.border{
+  border: 1px solid red;
+}
+
+
+
+.GroupTypography{
+  width: 100%;
+  background-color: #800020;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.TypographyTitle{
+  font-size: 30px !important;
+  color: white;
+  font-weight: bold;
+  font-family: 'Salsa', cursive !important;
+
+}
+
+
+@media(max-width:400px){
+  .GroupTypography{
+    width: 90%;
+    margin: auto !important;
+    padding-top: .3rem !important;
+    padding-bottom: .3rem !important;
+    margin-bottom: 2rem !important;
+
+  
+  }
+  .TypographyTitle{
+    font-size: 20px !important;
+
+  
+  }
+}
